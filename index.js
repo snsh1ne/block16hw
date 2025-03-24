@@ -36,10 +36,10 @@ function logNames(items) {
    * @returns {Item} - the item in `items` with the given `id`
    */
   function getItemById(items, id) {
-    let itemId = items.find((id) =>{
-      items.id === id
+    items.find((id) =>{
+      return items.id == id
     })
-    return itemId
+    
   }
   
   /**
